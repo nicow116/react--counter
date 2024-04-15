@@ -17,6 +17,7 @@ const App =()=> {
 return(
 <div className="container">
 <h1>counter: {count} </h1>
+
 <hr />
 <button onClick={handleReset}>reset</button>
 <button onClick={handleSubstract}>-</button>
